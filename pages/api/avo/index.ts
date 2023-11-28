@@ -1,4 +1,4 @@
-import { IncomingMessage, ServerResponse } from "http"
+import { IncomingMessage, ServerResponse } from 'http'
 import DB from '@database'
 
 const allAVOS = async (request: IncomingMessage, response: ServerResponse) => {
@@ -16,5 +16,3 @@ const allAVOS = async (request: IncomingMessage, response: ServerResponse) => {
 }
 
 export default allAVOS;
-
-
