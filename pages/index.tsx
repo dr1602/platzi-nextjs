@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../components/Navbar/Navbar'
 
 const HomePage = () => {
 
@@ -27,7 +26,6 @@ const HomePage = () => {
 
   return (
     <div>
-      <Navbar />
       <div>Platzi and Next.js!</div>
       {productList.map((product) => (
         <div> {product.name} </div>
